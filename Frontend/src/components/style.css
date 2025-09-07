@@ -1,0 +1,118 @@
+/* ====== Page Background ====== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222; /* dark background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* ====== Main Container ====== */
+.contact-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #000; /* black card */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(255,255,255,0.1);
+}
+
+/* ====== Heading ====== */
+.contact-container h2,
+.contact-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff; /* white headings */
+}
+
+/* ====== Labels ====== */
+label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff; /* white labels */
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* ====== Vertical Form ====== */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form select {
+  padding: 10px 12px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  font-size: 15px;
+  background: #222;
+  color: #fff;
+}
+
+.contact-form input:focus,
+.contact-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* ====== Buttons ====== */
+button {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+button:hover { opacity: 0.9; }
+
+.btn-green { background-color: #28a745; }
+.btn-blue { background-color: #007bff; }
+.btn-red { background-color: #dc3545; }
+.btn-gray { background-color: #6c757d; }
+
+/* ====== Table ====== */
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #111;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.contact-table th,
+.contact-table td {
+  border: 1px solid #333;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact-table th {
+  background-color: #222;
+  font-weight: 600;
+}
+
+.contact-table tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+/* ====== Table Action Buttons ====== */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}

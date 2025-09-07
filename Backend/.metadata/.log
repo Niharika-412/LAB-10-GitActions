@@ -1,0 +1,129 @@
+!SESSION 2025-09-07 21:00:26.828 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-07 21:00:35.348
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-07 21:01:05.481
+!MESSAGE Logback config file: E:\jenkinspractice205\Backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-09-07 21:01:06.182
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-07 21:01:06.182
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-09-07 21:01:06.650
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-07 21:01:06.650
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-07 21:01:12.475
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nihas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:12:11.493
+!MESSAGE Classpath changed for project: ContactBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:12:11.496
+!MESSAGE Boot project ADDED: ContactBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:12:11.497
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:12:11.533
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-09-07 21:12:11.579
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-21\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=E:/jenkinspractice205/Backend/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1757259731578
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\nihas\eclipse\jee-2024-093\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:12:11.580
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-09-07 21:12:11.615
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 19868
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:12:13.903
+!MESSAGE Classpath changed for project: ContactBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:12:15.850
+!MESSAGE Classpath changed for project: ContactBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:12:23.768
+!MESSAGE Classpath changed for project: ContactBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:12:23.770
+!MESSAGE Boot project REMOVED: ContactBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:19:47.104
+!MESSAGE Classpath changed for project: ContactBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:19:47.105
+!MESSAGE Boot project ADDED: ContactBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:19:48.001
+!MESSAGE Classpath changed for project: ContactBook
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-09-07 21:37:19.664
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-09-07 21:37:19.665
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-09-07 21:37:19.667
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-09-07 21:37:19.668
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-09-07 21:37:19.681
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-09-07 21:37:19.686
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface 2 0 2025-09-07 21:37:20.099
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-09-07 21:37:20.099
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:38:06.579
+!MESSAGE Classpath changed for project: ContactBook
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-09-07 21:38:46.080
+!MESSAGE Classpath changed for project: ContactBook
