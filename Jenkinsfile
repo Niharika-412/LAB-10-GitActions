@@ -32,7 +32,7 @@ pipeline {
         // ===== BACKEND BUILD =====
         stage('Build Backend') {
             steps {
-                dir('BACKEND') {
+                dir('BACKEND/ContactBook') {
                     bat 'mvn clean package'
                 }
             }
