@@ -26,8 +26,8 @@ jobs:
       - name: Build and push backend image
         uses: docker/build-push-action@v5
         with:
-          context: ./Backend/Contackbook
-          file: ./Backend/Contackbook/Backend.Dockerfile
+          context: ./Backend/ContactBook
+          file: ./Backend/ContactBook/backend.Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/backend:latest
 
